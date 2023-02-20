@@ -98,3 +98,48 @@ footer {
   font-size: 1.2em;
 }
 
+section {
+  padding: 2em;
+  background-color: #f8f8f8;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5em 0;
+}
+
+form div label {
+  flex-basis: 25%;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+form div input,
+form div textarea {
+  flex-grow: 1;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  padding: 0.5em 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 0.3em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+  background-color: #2E8B57;
+}
+
